@@ -26,12 +26,12 @@ Follow up: Squaring each element and sorting the new array is very trivial,
 could you find an O(n) solution using a different approach?
 '''
 
+
 class Solution:
     def sortedSquares(self, nums: List[int]) -> List[int]:
         square = []
         for i in range(len(nums)):
             square.append(nums[i]**2)
-            
+
         square.sort()
         return square
-        
