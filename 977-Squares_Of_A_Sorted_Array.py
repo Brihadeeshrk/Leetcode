@@ -14,7 +14,6 @@ Example 2:
 Input: nums = [-7,-3,2,3,11]
 Output: [4,9,9,49,121]
  
-
 Constraints:
 
 1 <= nums.length <= 104
